@@ -49,7 +49,7 @@ makeX <- function(x, group.index)
 
 
 # compositional logistic regression
-compLogistic.lasso <- function(y,x,group.index,lambda=1,
+complasso.Logistic <- function(y,x,group.index,lambda=1,
                                max.iter = 100, tol.var = 1e-4)
 {
   n = nrow(x)

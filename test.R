@@ -1,4 +1,4 @@
-# test
+# test # test code (by JJJ)
 rm(list = ls()) ; gc()
 source("./library/comp_logistic.R")
 group.index <- c(1,1,2,2,2,3,4,4,4,4)
